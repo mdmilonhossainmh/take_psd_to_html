@@ -1,0 +1,175 @@
+*{
+   padding: 0;
+   margin: 0;
+   outline: none;
+}
+ul,ol{
+   list-style: none;
+   padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+a,
+button,
+nav,
+ul,
+li,
+span,
+nav {
+  margin: 0;
+  padding: 0;
+}
+body{
+   font-family: "Open Sans", system-ui;
+}
+/* universel end --------------------------------*/
+
+/* head css start */
+.logo a{
+   font-size: 20px;
+}
+.nav .barss{
+display: none;
+}
+.nav ul{
+   display: flex;
+   justify-content: space-between;
+}
+.nav ul li a{
+   padding: 0px 4px;
+   font-size: 18px;
+   text-transform: uppercase;
+}
+
+
+.mobile{
+   margin-top: -40px;
+}
+.headerinner{
+   padding-bottom: 200px;
+}
+header{
+   background-image: url(../img/psdimg/bannar.jpg);
+   object-fit: cover;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+@media(max-width:992px){
+   .nav ul li a i{
+      display: none;
+   }
+}
+   @media(max-width:768px){
+      .nav .barss{
+         display: inline-block;
+         background-color: goldenrod;
+         padding: 5px;
+         height: 50px;
+         }
+       .nav ul{
+         display: flex;
+         flex-direction: column;
+         
+       }
+       .ulshow{
+         display: none;
+       }
+       .nav ul li a i{
+         display: inline-block;
+      }
+   }
+
+  
+/* header css end */
+
+/* text css start */
+ .text{
+
+ }
+/* text css end -------------------*/
+
+/* grid css start */
+ .rever{
+   height: 200px;
+   object-fit: cover;
+ }
+  .color1{
+   background-color: #f5989d;
+  }
+  .color2{
+   background-color: #615f7d;
+  }
+  .color3{
+   background-color: #82ca9c;
+  }
+ .grid_bg_img_1{
+   background-image: url(../img/psdimg/rever.jpg);
+   object-fit: cover;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 202px;
+ }
+
+ .grid_bg_img_2{
+   background-image: url(../img/psdimg/manimg.jpg);
+   object-fit: cover;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+ }
+/* grid css end -------------------*/
+
+
+/*  info   start */
+/* info    end----------- */
+
+/*  drive   start */
+.drive{
+   background-image: url(../img/psdimg/drive.jpg);
+   object-fit: cover;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+/* drive    end----------- */
+
+
+
+/*  last-info   start */
+
+
+.last-info{
+   background-color: #82ca9c;
+}
+
+/*  last-info   end----------- */
+
+  
+
+/* bying    start */
+.bying{
+
+}
+/*  bying   end----------- */
+/* footer    start */
+.footer{
+
+}
+/*  footer   end----------- */
+
+/* ===================================== */
+
+/*     start */
+
+/*     end----------- */
+/*     start */
+
+/*     end----------- */
